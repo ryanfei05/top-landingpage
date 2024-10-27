@@ -91,7 +91,7 @@ ul {
 }
 
 .card {
-    color: darkgray;
+    color: #1F2937;
     display: flex;
     flex-direction: column;
     align-items: center;
