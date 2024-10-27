@@ -35,8 +35,8 @@ ul {
     background-color: #1F2937;
     color: #F9FAF8;
     padding-top: 15px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-bottom: 75px;
 }
 
@@ -55,11 +55,12 @@ ul {
 .button {
     color: #F9FAF8;
     background-color: #3882F6;
-    padding: 5px 20px;
+    padding: 10px 35px;
     border-radius: 5px;
     border: none;
     margin: 8px 0;
     font-weight: bold;
+    font-size: 15px;
 }
 
 .left {
@@ -108,4 +109,70 @@ ul {
     height: 115px;
     border-radius: 10px;
     border: 3px solid #3882F6;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 25%;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px;
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 75px 20%;
+}
+
+.container-3 {
+    background-color: #3882F6;
+    padding: 35px;
+    width: 100%;
+    border-radius: 7px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cta {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+.button-2 {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 10px 35px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    margin: 8px 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer {
+    padding: 35px 0;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
